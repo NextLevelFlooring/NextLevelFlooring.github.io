@@ -1,3 +1,4 @@
+/* https://bootswatch.com/slate/ */
 body {
     background-color: #272b30 !important;
 }
@@ -25,4 +26,8 @@ h1, h2, h3, h4 {
 
 .timeline-image h4 {
     color: white;
+}
+
+.galItem {
+    width: 100%;
 }
