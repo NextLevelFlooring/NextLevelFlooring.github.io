@@ -16,10 +16,12 @@ $( document ).ready(function() {
         }, 400);
     });
 
-    $('.slideshow').square1({
-        theme: 'light',
-        animation: 'slide',
-        height: '400px',
-        dots_nav: 'inside',
+    $('.slideshow').each(function(index) {
+        $( this ).square1({
+            theme: 'light',
+            animation: 'slide',
+            height: '400px',
+            dots_nav: 'inside',
+        });
     });
 });
