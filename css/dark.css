@@ -11,6 +11,18 @@ h1, h2, h3, h4 {
     color: #959faa !important;
   }
 
-#services {
+#services, #team {
     padding-top: 3rem;
+}
+
+#about {
+    padding-bottom: 3rem;
+}
+
+.timeline-heading {
+    color: rgb(206, 206, 206) !important;
+}
+
+.timeline-image h4 {
+    color: white;
 }
