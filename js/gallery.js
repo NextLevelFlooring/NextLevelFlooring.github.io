@@ -12,7 +12,7 @@ $( document ).ready(function() {
 
     $(".gallery ul li a").click(function() {
         $('html, body').animate({
-            scrollTop: parseInt($("#top").offset().top)
+            scrollTop: parseInt($("#top").offset().top) - $(".navbar").outerHeight()
         }, 400);
     });
 });
