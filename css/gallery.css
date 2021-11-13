@@ -142,7 +142,7 @@
   visibility: hidden;
   -webkit-transform: translateY(-100%);
   transform: translateY(-100%);
-  border-bottom: 1px solid #d0d0d0;
+  background-color: #343a41;
   -webkit-transition: all 0.5s ease-in-out;
   -moz-transition: all 0.5s ease-in-out;
   transition: all 0.5s ease-in-out;
@@ -200,3 +200,15 @@
   position: absolute;
 }
 
+.slideshow {
+  padding: 2rem;
+}
+
+.image_wrapper .text_content {
+  position: absolute;
+  bottom: 1rem;
+  left: 1rem;
+  color: #fff;
+  text-shadow: 0 0 3px rgba(0,0,0,.5);
+  opacity: 1;
+}

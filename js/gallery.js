@@ -15,4 +15,11 @@ $( document ).ready(function() {
             scrollTop: parseInt($("#top").offset().top) - $(".navbar").outerHeight()
         }, 400);
     });
+
+    $('.slideshow').square1({
+        theme: 'light',
+        animation: 'slide',
+        height: '400px',
+        dots_nav: 'inside',
+    });
 });
