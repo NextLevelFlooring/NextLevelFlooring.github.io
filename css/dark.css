@@ -1,0 +1,16 @@
+body {
+    background-color: #272b30 !important;
+}
+
+h1, h2, h3, h4 {
+    color: rgb(206, 206, 206);
+}
+
+.text-muted {
+    --bs-text-opacity: 1;
+    color: #959faa !important;
+  }
+
+#services {
+    padding-top: 3rem;
+}
