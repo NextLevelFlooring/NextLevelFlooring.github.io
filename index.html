@@ -6,16 +6,14 @@
         <meta name="description" content="" />
         <meta name="author" content="" />
         <title>NextLevelFlooring</title>
-        <!-- Favicon-->
         <link rel="icon" type="image/x-icon" href="assets/favicon.ico" />
         <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js" crossorigin="anonymous"></script>
         <script src="js/webpCheck.js"></script>
         <script src="js/gallery.js"></script>
-        <!-- Google fonts-->
         <link href="https://fonts.googleapis.com/css?family=Montserrat:400,700&display=swap" rel="stylesheet" type="text/css" />
         <link href="https://fonts.googleapis.com/css?family=Roboto+Slab:400,100,300,700&display=swap" rel="stylesheet" type="text/css" />
         <link href='https://fonts.googleapis.com/css?family=Lato:300&display=swap' rel='stylesheet' type='text/css'>
-        <!-- Core theme CSS (includes Bootstrap)-->
+        <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta2/css/brands.min.css" rel="stylesheet" type="text/css" />
         <link href="css/dark.css" rel="stylesheet" />
         <link href="css/styles.css" rel="stylesheet" />
         <link href="css/gallery.css" rel="stylesheet" />
@@ -270,7 +268,7 @@
                             <picture>
                                 <source type="image/webp" srcset="assets/img/about/1.webp">
                                 <source type="image/jpeg" srcset="assets/img/about/1.jpg">
-                                <img class="rounded-circle img-flud" src="assets/img/about/1.jpg" alt="..." />
+                                <img class="rounded-circle img-fluid" src="assets/img/about/1.jpg" alt="..." />
                             </picture>
                         </div>
                         <div class="timeline-panel">
@@ -287,7 +285,7 @@
                             <picture>
                                 <source type="image/webp" srcset="assets/img/about/2.webp">
                                 <source type="image/jpeg" srcset="assets/img/about/2.jpg">
-                                <img class="rounded-circle img-flud" src="assets/img/about/2.jpg" alt="..." />
+                                <img class="rounded-circle img-fluid" src="assets/img/about/2.jpg" alt="..." />
                             </picture>
                         </div>
                         <div class="timeline-panel">
@@ -302,7 +300,7 @@
                             <picture>
                                 <source type="image/webp" srcset="assets/img/about/3.webp">
                                 <source type="image/jpeg" srcset="assets/img/about/3.jpg">
-                                <img class="rounded-circle img-flud" src="assets/img/about/3.jpg" alt="..." />
+                                <img class="rounded-circle img-fluid" src="assets/img/about/3.jpg" alt="..." />
                             </picture>
                         </div>
                         <div class="timeline-panel">
@@ -317,7 +315,7 @@
                             <picture>
                                 <source type="image/webp" srcset="assets/img/about/4.webp">
                                 <source type="image/jpeg" srcset="assets/img/about/4.jpg">
-                                <img class="rounded-circle img-flud" src="assets/img/about/4.jpg" alt="..." />
+                                <img class="rounded-circle img-fluid" src="assets/img/about/4.jpg" alt="..." />
                             </picture>
                         </div>
                         <div class="timeline-panel">
@@ -343,22 +341,22 @@
                 <div class="row">
                     <div class="col-lg-4">
                         <div class="team-member">
-                            <img class="mx-auto rounded-circle" src="" alt="..." />
-                            <h4>Leo</h4>
+                            <img class="mx-auto rounded-circle" src="assets/img/profilepic.jpg" alt="..." />
+                            <h4>Leo Richardson</h4>
                             <p class="text-muted">Apprentice</p>
                         </div>
                     </div>
                     <div class="col-lg-4">
                         <div class="team-member">
-                            <img class="mx-auto rounded-circle" src="" alt="..." />
-                            <h4>Carl</h4>
+                            <img class="mx-auto rounded-circle" src="assets/img/profilepic.jpg" alt="..." />
+                            <h4>Carl Skipper</h4>
                             <p class="text-muted">Boss</p>
                         </div>
                     </div>
                     <div class="col-lg-4">
                         <div class="team-member">
-                            <img class="mx-auto rounded-circle" src="" alt="..." />
-                            <h4>Kitkat</h4>
+                            <img class="mx-auto rounded-circle" src="assets/img/profilepic.jpg" alt="..." />
+                            <h4>Luke Barrett</h4>
                             <p class="text-muted">Boss</p>
                         </div>
                     </div>
@@ -382,8 +380,42 @@
         <section class="page-section" id="contact">
             <div class="container">
                 <div class="text-center">
+                    <br>
                     <h2 class="section-heading text-uppercase">Contact Us</h2>
                     <h3 class="section-subheading text-muted">Contact details here.</h3>
+
+                    <div class="container contactForm">
+                        <div class="row input-container">
+                                <div class="col-xs-12">
+                                    <div class="styled-input wide">
+                                        <input type="text" required />
+                                        <label>Name</label> 
+                                    </div>
+                                </div>
+                                <div class="col-md-6 col-sm-12">
+                                    <div class="styled-input">
+                                        <input type="text" required />
+                                        <label>Email</label> 
+                                    </div>
+                                </div>
+                                <div class="col-md-6 col-sm-12">
+                                    <div class="styled-input" style="float:right;">
+                                        <input type="text" required />
+                                        <label>Phone Number</label> 
+                                    </div>
+                                </div>
+                                <div class="col-xs-12">
+                                    <div class="styled-input wide">
+                                        <textarea required></textarea>
+                                        <label>Message</label>
+                                    </div>
+                                </div>
+                                <div class="col-xs-12">
+                                    <div class="btn-lrg submit-btn">Send Message</div>
+                                </div>
+                        </div>
+                    </div>
+                    
                 </div>
             </div>
         </section>
@@ -391,15 +423,10 @@
         <footer class="footer py-4">
             <div class="container">
                 <div class="row align-items-center">
-                    <div class="col-lg-4 text-lg-start">JayJayJay &copy; JayJayJayJay</div>
+                    <div class="col-lg-4 text-lg-start"><a href="https://find-and-update.company-information.service.gov.uk/company/13254894">NextLevelFlooring &copy; 2021</a></div>
                     <div class="col-lg-4 my-3 my-lg-0">
-                        <a class="btn btn-dark btn-social mx-2" href="#!"><i class="fab fa-twitter"></i></a>
-                        <a class="btn btn-dark btn-social mx-2" href="#!"><i class="fab fa-facebook-f"></i></a>
-                        <a class="btn btn-dark btn-social mx-2" href="#!"><i class="fab fa-linkedin-in"></i></a>
-                    </div>
-                    <div class="col-lg-4 text-lg-end">
-                        <a class="link-dark text-decoration-none me-3" href="#!">Privacy Policy</a>
-                        <a class="link-dark text-decoration-none" href="#!">Terms of Use</a>
+                        <a class="btn btn-dark btn-social mx-2" href="https://www.instagram.com/next_levelflooring/" target="__blank"><i class="fab fa-instagram"></i></a>
+                        <a class="btn btn-dark btn-social mx-2" href="https://www.facebook.com/nextlevelflooringnorfolk/" target="__blank"><i class="fab fa-facebook-f"></i></a>
                     </div>
                 </div>
             </div>
