@@ -163,3 +163,9 @@ input[type=checkbox]:checked + label {
 .text-lg-start {
     color: white;
 }
+
+.fa-plus:before{content:"\2b"}
+
+p {
+    color:white;
+}

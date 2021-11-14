@@ -25,5 +25,9 @@ $( document ).ready(function() {
         });
     });
 
-    $("#container1").twentytwenty();
+    $("#container1").twentytwenty(
+        {
+            default_offset_pct: 0.5
+        }
+    );
 });
