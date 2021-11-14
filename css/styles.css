@@ -11394,7 +11394,18 @@ p {
     margin-right: 0;
   }
 }
-header.masthead {
+.webp header.masthead {
+  padding-top: 10.5rem;
+  padding-bottom: 6rem;
+  text-align: center;
+  color: #fff;
+  background-image: url("../assets/img/header-bg.webp");
+  background-repeat: no-repeat;
+  background-attachment: scroll;
+  background-position: center bottom;
+  background-size: cover;
+}
+.no-webp header.masthead {
   padding-top: 10.5rem;
   padding-bottom: 6rem;
   text-align: center;
@@ -11422,8 +11433,8 @@ header.masthead .masthead-heading {
 
 @media (min-width: 768px) {
   header.masthead {
-    padding-top: 17rem;
-    padding-bottom: 12.5rem;
+    padding-top: 17rem !important;
+    padding-bottom: 12.5rem !important;
   }
   header.masthead .masthead-subheading {
     font-size: 2.25rem;
