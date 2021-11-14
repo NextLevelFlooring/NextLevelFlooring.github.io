@@ -31,6 +31,7 @@
             div.cust-heading {
                 background: -webkit-linear-gradient(#ba8dbe, #5fb8e7);
                 -webkit-background-clip: text;
+                background-clip: text;
                 -webkit-text-fill-color: transparent;            
             }
         </style>
@@ -83,8 +84,16 @@
                 </div>
                 <br>
                 <div id="container1" class="twentytwenty-container">
-                    <img src="assets/img/gallery/before.jpg">
-                    <img src="assets/img/gallery/after.jpg">
+                    <picture>
+                        <source type="image/webp" srcset="assets/img/gallery/before.webp">
+                        <source type="image/jpeg" srcset="assets/img/gallery/before.jpg">
+                        <img src="assets/img/gallery/thumb/before.jpg">
+                    </picture>
+                    <picture>
+                        <source type="image/webp" srcset="assets/img/gallery/after.webp">
+                        <source type="image/jpeg" srcset="assets/img/gallery/after.jpg">
+                        <img src="assets/img/gallery/after.jpg">
+                    </picture>
                 </div>
                 <br>
             </div>
@@ -259,7 +268,13 @@
                 <br>
                 <ul class="timeline">
                     <li>
-                        <div class="timeline-image"><img class="rounded-circle img-fluid" src="assets/img/about/1.jpg" alt="..." /></div>
+                        <div class="timeline-image">
+                            <picture>
+                                <source type="image/webp" srcset="assets/img/about/1.webp">
+                                <source type="image/jpeg" srcset="assets/img/about/1.jpg">
+                                <img class="rounded-circle img-flud" src="assets/img/about/1.jpg" alt="..." />
+                            </picture>
+                        </div>
                         <div class="timeline-panel">
                             <div class="timeline-heading">
                                 <h4>Vinyl</h4>
@@ -270,7 +285,13 @@
                         </div>
                     </li>
                     <li class="timeline-inverted">
-                        <div class="timeline-image"><img class="rounded-circle img-fluid" src="assets/img/about/2.jpg" alt="..." /></div>
+                        <div class="timeline-image">
+                            <picture>
+                                <source type="image/webp" srcset="assets/img/about/2.webp">
+                                <source type="image/jpeg" srcset="assets/img/about/2.jpg">
+                                <img class="rounded-circle img-flud" src="assets/img/about/2.jpg" alt="..." />
+                            </picture>
+                        </div>
                         <div class="timeline-panel">
                             <div class="timeline-heading">
                                 <h4>Carpet</h4>
@@ -279,7 +300,13 @@
                         </div>
                     </li>
                     <li>
-                        <div class="timeline-image"><img class="rounded-circle img-fluid" src="assets/img/about/3.jpg" alt="..." /></div>
+                        <div class="timeline-image">
+                            <picture>
+                                <source type="image/webp" srcset="assets/img/about/3.webp">
+                                <source type="image/jpeg" srcset="assets/img/about/3.jpg">
+                                <img class="rounded-circle img-flud" src="assets/img/about/3.jpg" alt="..." />
+                            </picture>
+                        </div>
                         <div class="timeline-panel">
                             <div class="timeline-heading">
                                 <h4>Luxury Vinyl Tiles</h4>
@@ -288,7 +315,13 @@
                         </div>
                     </li>
                     <li class="timeline-inverted">
-                        <div class="timeline-image"><img class="rounded-circle img-fluid" src="assets/img/about/4.jpg" alt="..." /></div>
+                        <div class="timeline-image">
+                            <picture>
+                                <source type="image/webp" srcset="assets/img/about/4.webp">
+                                <source type="image/jpeg" srcset="assets/img/about/4.jpg">
+                                <img class="rounded-circle img-flud" src="assets/img/about/4.jpg" alt="..." />
+                            </picture>
+                        </div>
                         <div class="timeline-panel">
                             <div class="timeline-heading">
                                 <h4>Safety Flooring</h4>
