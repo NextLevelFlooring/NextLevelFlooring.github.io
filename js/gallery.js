@@ -24,4 +24,6 @@ $( document ).ready(function() {
             dots_nav: 'inside',
         });
     });
+
+    $("#container1").twentytwenty();
 });
