@@ -1,38 +1,32 @@
 <?xml version="1.0" encoding="utf-8"?>
-<!-- Generator: Adobe Illustrator 26.0.1, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
-<svg version="1.2" baseProfile="tiny" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"
-	 x="0px" y="0px" viewBox="0 0 800 392.6" overflow="visible" xml:space="preserve">
-<g id="Layer_1_00000126293764696098657400000002299482010369786807_">
-</g>
-<g id="Layer_2_00000031187271020541836670000001978999771094480806_">
-	<g>
-		<linearGradient id="SVGID_1_" gradientUnits="userSpaceOnUse" x1="171.3448" y1="339.7848" x2="171.3448" y2="58.8606">
-			<stop  offset="0" style="stop-color:#8C4192"/>
-			<stop  offset="1" style="stop-color:#2C9CD7"/>
-		</linearGradient>
-		<path fill="url(#SVGID_1_)" d="M283.9,58.9v280.9h-58.7l-113.8-204v204H58.8V58.9h58.7l113.8,203.7V58.9H283.9z"/>
-		
-			<linearGradient id="SVGID_00000168096782583043073580000011139841705511339139_" gradientUnits="userSpaceOnUse" x1="433.2538" y1="339.7849" x2="433.2538" y2="58.8606">
-			<stop  offset="0" style="stop-color:#8C4192"/>
-			<stop  offset="1" style="stop-color:#2C9CD7"/>
-		</linearGradient>
-		<path fill="url(#SVGID_00000168096782583043073580000011139841705511339139_)" d="M524.5,309.9v29.9H342V58.9h56.9v251.1H524.5z"
-			/>
-		
-			<linearGradient id="SVGID_00000154412877879145141780000002861238117374816668_" gradientUnits="userSpaceOnUse" x1="655.2809" y1="339.8052" x2="655.2809" y2="58.8606">
-			<stop  offset="0" style="stop-color:#8C4192"/>
-			<stop  offset="1" style="stop-color:#2C9CD7"/>
-		</linearGradient>
-		<path fill="url(#SVGID_00000154412877879145141780000002861238117374816668_)" d="M623.4,88.7v101.5H718v29.9h-94.6v119.7h-56.9
-			V58.9H744v29.9H623.4z"/>
-	</g>
-	
-		<linearGradient id="SVGID_00000065753070962800976130000004225328811399624069_" gradientUnits="userSpaceOnUse" x1="400.4427" y1="0.6546" x2="400.4427" y2="389.1271" gradientTransform="matrix(1 0 0 -1 0 391.609)">
-		<stop  offset="0" style="stop-color:#8C4192"/>
-		<stop  offset="1" style="stop-color:#2C9CD7"/>
+<!-- Generator: Adobe Illustrator 24.3.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<svg version="1.2" baseProfile="tiny" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px"
+	 y="0px" viewBox="0 0 92.04 92.31" overflow="visible" xml:space="preserve">
+<g id="Layer_1">
+	<linearGradient id="SVGID_1_" gradientUnits="userSpaceOnUse" x1="17.8697" y1="30.1338" x2="17.8697" y2="62.9198">
+		<stop  offset="0" style="stop-color:#7C6EB0"/>
+		<stop  offset="1" style="stop-color:#22ADE4"/>
 	</linearGradient>
-	
-		<polyline fill="none" stroke="url(#SVGID_00000065753070962800976130000004225328811399624069_)" stroke-width="10" stroke-miterlimit="10" points="
-		305,386 793.2,386 793.2,7.5 7.7,7.5 7.7,137.7 	"/>
+	<polygon fill="url(#SVGID_1_)" points="30.43,62.92 25.56,62.92 10.13,38.67 10.13,62.92 5.31,62.92 5.31,30.13 10.13,30.13 
+		25.56,54.38 25.56,30.13 30.43,30.13 	"/>
+	<linearGradient id="SVGID_2_" gradientUnits="userSpaceOnUse" x1="48.2682" y1="30.1338" x2="48.2682" y2="62.9198">
+		<stop  offset="0" style="stop-color:#7C6EB0"/>
+		<stop  offset="1" style="stop-color:#22ADE4"/>
+	</linearGradient>
+	<polygon fill="url(#SVGID_2_)" points="58.88,62.92 37.66,62.92 37.66,30.13 42.48,30.13 42.48,58.1 58.88,58.1 	"/>
+	<linearGradient id="SVGID_3_" gradientUnits="userSpaceOnUse" x1="74.7857" y1="30.1338" x2="74.7857" y2="62.9198">
+		<stop  offset="0" style="stop-color:#7C6EB0"/>
+		<stop  offset="1" style="stop-color:#22ADE4"/>
+	</linearGradient>
+	<polygon fill="url(#SVGID_3_)" points="67.55,62.92 62.73,62.92 62.73,30.13 86.84,30.13 86.84,34.96 67.55,34.96 67.55,44.12 
+		83.95,44.12 83.95,48.94 67.55,48.94 	"/>
+</g>
+<g id="Layer_2">
+	<linearGradient id="SVGID_4_" gradientUnits="userSpaceOnUse" x1="46.1538" y1="1.2418" x2="46.1538" y2="91.3297">
+		<stop  offset="0" style="stop-color:#973B8E"/>
+		<stop  offset="1" style="stop-color:#009FDD"/>
+	</linearGradient>
+	<polyline fill="none" stroke="url(#SVGID_4_)" stroke-width="2" stroke-miterlimit="10" points="36.31,90.33 90.07,90.33 
+		90.07,2.24 2.24,2.24 2.24,26.69 	"/>
 </g>
 </svg>
